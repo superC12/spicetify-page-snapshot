@@ -1,0 +1,8 @@
+{
+	"name": "Page Snapshot",
+	"description": "Copies a text snapshot of Spotify's page structure to your clipboard. Built for theme and extension authors fixing selectors after a Spotify update.",
+	"preview": "preview.png",
+	"main": "pageSnapshot.js",
+	"readme": "README.md",
+	"tags": ["developer", "debug", "utility"]
+}
