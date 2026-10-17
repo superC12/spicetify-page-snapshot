@@ -90,15 +90,15 @@ spicetify apply
 
 ## Changelog
 
+Release notes below group related updates; existing Git commits and published version identifiers are preserved. Basic controls are described with the initial feature release.
+
 ### v1.1.0
 
-- Added an error log: press Ctrl+Alt+E to see errors from Spotify, Spicetify and extensions on screen.
-- Snapshots now include the most recent errors.
-- Added the Ctrl+Alt+S shortcut for copying a snapshot.
+- On-screen error log, grouped repeats, Copy/Clear, and recent errors included in snapshots. Ctrl+Alt+E shows or hides the log.
 
 ### v1.0.0
 
-- Initial release.
+- Initial release: copy Spotify's page structure and environment details from the profile menu or with Ctrl+Alt+S.
 
 ## License
 
