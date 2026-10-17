@@ -90,7 +90,7 @@ spicetify apply
 
 ## Changelog
 
-Release notes below group related updates; existing Git commits and published version identifiers are preserved. Basic controls are described with the initial feature release.
+Related changes are combined under clean release versions.
 
 ### v1.1.0
 
