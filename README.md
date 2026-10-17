@@ -75,7 +75,7 @@ spicetify apply
 ```
 
 > [!NOTE]
-> Tested on Spotify 1.3.4 with Spicetify 2.45.3. The snapshot is capped at 30,000 characters.
+> Tested on Spotify 1.3.4 with Spicetify 2.45.3. The elements it reads are unchanged in Spotify 1.3.5. The snapshot is capped at 30,000 characters.
 
 ## Changelog
 
