@@ -2,7 +2,7 @@
 
 ![preview](preview.png)
 
-Copy a text snapshot of Spotify's page structure to your clipboard in one click.
+Copy a text snapshot of Spotify's page structure to your clipboard in one click, and see the errors Spotify normally hides.
 
 A [Spicetify](https://spicetify.app) extension for theme and extension authors.
 
@@ -20,8 +20,19 @@ Page Snapshot gives you (or whoever is helping you) the relevant structure as pl
 - The first Home shelf and a Home shortcut tile
 - The album, playlist or artist header, when one is on screen
 - The right sidebar, when it is open
+- The most recent errors from the error log (below)
 
 The snapshot includes whatever is visible on the page you are on, such as track or playlist titles. It does not read account details, tokens or anything outside the page. Nothing is sent anywhere: the text goes to your clipboard and stops there.
+
+## Error log
+
+When something in Spotify silently fails (a menu that won't open, a page that shows "Something went wrong"), the real error only goes to the developer console. Page Snapshot keeps a running log of those errors from the moment Spotify starts and can show it on screen.
+
+- Press **Ctrl+Alt+E** to show or hide the log in the bottom-left corner.
+- Repeated errors are grouped (`x3`) instead of filling the list.
+- **Copy** puts the log on your clipboard, **Clear** empties it.
+
+It captures errors from Spotify, Spicetify and every extension, not only this one.
 
 ## Install
 
@@ -48,7 +59,7 @@ Open the [Spicetify Marketplace](https://github.com/spicetify/marketplace), sear
 ## Usage
 
 1. Open the page you want to inspect (Home, an album, a playlist).
-2. Click your profile picture and choose **Copy page snapshot**.
+2. Press **Ctrl+Alt+S**, or click your profile picture and choose **Copy page snapshot**.
 3. Paste it wherever you need it.
 
 Output looks like this:
@@ -75,9 +86,15 @@ spicetify apply
 ```
 
 > [!NOTE]
-> Tested on Spotify 1.3.4 with Spicetify 2.45.3. The elements it reads are unchanged in Spotify 1.3.5. The snapshot is capped at 30,000 characters.
+> Tested on Spotify 1.3.4 and 1.3.5 with Spicetify 2.45.3. On Spotify 1.3.5, extension entries in the profile menu can stop the menu from opening; the keyboard shortcuts work either way. The snapshot is capped at 30,000 characters.
 
 ## Changelog
+
+### v1.1.0
+
+- Added an error log: press Ctrl+Alt+E to see errors from Spotify, Spicetify and extensions on screen.
+- Snapshots now include the most recent errors.
+- Added the Ctrl+Alt+S shortcut for copying a snapshot.
 
 ### v1.0.0
 
