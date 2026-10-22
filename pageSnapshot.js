@@ -1,5 +1,5 @@
 // NAME: Page Snapshot
-// VERSION: 1.1.0
+// VERSION: 1.2.0
 // DESCRIPTION: Copies a text snapshot of Spotify's page structure to the clipboard, and keeps an on-screen log of errors. For theme and extension authors fixing things after a Spotify update.
 
 (function pageSnapshot() {

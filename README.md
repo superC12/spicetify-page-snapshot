@@ -86,11 +86,15 @@ spicetify apply
 ```
 
 > [!NOTE]
-> Tested on Spotify 1.3.4 and 1.3.5 with Spicetify 2.45.3. On Spotify 1.3.5, extension entries in the profile menu can stop the menu from opening; the keyboard shortcuts work either way. The snapshot is capped at 30,000 characters.
+> Tested on Spotify 1.3.4 and 1.3.5 with Spicetify 2.45.3, and checked against Spotify 1.3.6 with Spicetify 2.46.2. On Spotify 1.3.5, extension entries in the profile menu can stop the menu from opening; the keyboard shortcuts work either way. The snapshot is capped at 30,000 characters.
 
 ## Changelog
 
 Related changes are combined under clean release versions.
+
+### v1.2.0
+
+- Checked against Spotify 1.3.6 with Spicetify 2.46.2: every element the snapshot reads is still there.
 
 ### v1.1.0
 
